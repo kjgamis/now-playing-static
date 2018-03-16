@@ -200,7 +200,7 @@ figure {
   /* Small Screen Design */
 
 @media screen and (min-width: 768px) {
-  body {
-    
+  .movie-overview {
+      display: block;
   }
 }
