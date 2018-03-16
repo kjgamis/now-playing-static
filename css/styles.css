@@ -236,4 +236,23 @@ figure {
     font-size: 1.75em;
     margin: auto;
   }
+
+  footer {
+
+    margin-left: 110px;
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding-bottom: 36px;
+  }
+
+  .about {
+    float: right;
+    width: 50%;
+    background-color: black;
+  }
 }
