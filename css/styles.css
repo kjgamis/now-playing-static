@@ -200,6 +200,10 @@ figure {
   /* Small Screen Design */
 
 @media screen and (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+
   main {
     margin-left: 110px;
   }
@@ -230,5 +234,6 @@ figure {
 
   .site-nav-item-label {
     font-size: 1.75em;
+    margin: auto;
   }
 }
