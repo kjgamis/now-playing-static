@@ -200,7 +200,35 @@ figure {
   /* Small Screen Design */
 
 @media screen and (min-width: 768px) {
+  main {
+    margin-left: 110px;
+  }
+
   .movie-overview {
-      display: block;
+    display: block;
+  }
+
+  .site-nav-item {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .site-nav {
+    top: 0;
+    width: 110px;
+    z-index: 1;
+  }
+
+  .site-nav-list {
+    margin-top: 110px;
+  }
+
+  .fa {
+    font-size: 1.8em,
+  }
+
+  .site-nav-item-label {
+    font-size: 1.75em;
   }
 }
