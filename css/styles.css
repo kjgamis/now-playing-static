@@ -260,5 +260,33 @@ figure {
 /* Large Screen Design */
 
 @media screen and (min-width: 992px) {
-  
+  .main {
+    overflow: auto;
+  }
+
+  .movie {
+    float: left;
+    width: 33.3333%;
+    position: inline-block;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie-poster:nth-child(3n+2) {
+    float: right;
+  }
+
+  footer {
+    clear: both;
+  }
 }
