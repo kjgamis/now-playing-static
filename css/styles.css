@@ -261,10 +261,13 @@ figure {
 
 @media screen and (min-width: 992px) {
 
+  .movie:first-child {
+    width: 100%;
+  }
+
   .movie:nth-child(n+2) {
-    width: 33.333%;
+    width: 33%;
     display: inline-block;
-    margin:auto;
   }
 
 
@@ -290,13 +293,6 @@ figure {
 
   .movie:first-child .movie-poster {
     display: none;
-  }
-
-
-
-
-  footer {
-    clear: both;
   }
 
 }
