@@ -260,33 +260,43 @@ figure {
 /* Large Screen Design */
 
 @media screen and (min-width: 992px) {
-  .main {
-    overflow: auto;
+
+  .movie:nth-child(n+2) {
+    width: 33.333%;
+    display: inline-block;
+    margin:auto;
   }
 
-  .movie {
-    float: left;
-    width: 33.3333%;
-    position: inline-block;
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
   }
 
   .movie-backdrop {
     display: none;
   }
 
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
   .movie-poster {
     display: block;
   }
 
-  .movie-overview {
+  .movie:first-child .movie-poster {
     display: none;
   }
 
-  .movie-poster:nth-child(3n+2) {
-    float: right;
-  }
+
+
 
   footer {
     clear: both;
   }
+
 }
